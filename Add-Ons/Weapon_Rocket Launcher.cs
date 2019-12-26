@@ -1,6 +1,7 @@
 //rocketLauncher.cs
 
 //audio
+
 datablock AudioProfile(rocketFireSound)
 {
    filename    = "./sound/rocketFire.wav";
@@ -293,6 +294,11 @@ datablock ProjectileData(rocketLauncherProjectile)
 //////////
 // item //
 //////////
+-
+//--------BETA-INFOMATION--------------------------------------------------
+//--Beta Rocket Launcher's model was a gun, accoroding to Rontondo's video
+//-------------------------------------------------------------------------
+
 datablock ItemData(rocketLauncherItem)
 {
 	category = "Weapon";  // Mission editor category

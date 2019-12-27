@@ -1,7 +1,7 @@
-//-------------------------- 12/26/2019 -- 15:51:52 -----
+//-------------------------- 12/26/2019 -- 20:54:31 -----
 Processor Init:
-   Intel Pentium III, ~3.15 Ghz
-     (timed at roughly 3.17 Ghz)
+   Intel Pentium II, ~1.67 Ghz
+     (timed at roughly 1.68 Ghz)
    FPU detected
    MMX detected
    SSE detected
@@ -23,8 +23,8 @@ Input Init:
 Loading compiled script base/main.cs.
 Loading compiled script base/client/defaults.cs.
 Loading compiled script base/server/defaults.cs.
-Missing file: base/config/client/prefs.cs!
-Missing file: base/config/server/prefs.cs!
+Executing base/config/client/prefs.cs.
+Executing base/config/server/prefs.cs.
 --------- Loading MODS ---------
 Skipping mod: Add-Ons
 
@@ -46,3 +46,280 @@ Loading compiled script base/client/message.cs.
 Loading compiled script base/client/mission.cs.
 Loading compiled script base/client/missionDownload.cs.
 Loading compiled script base/client/actionMap.cs.
+Video Init:
+   Accelerated OpenGL display device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device... (NEW)
+Setting screen mode to 1280x720x32@60hz (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Intel
+  Renderer: Intel(R) HD Graphics 4400
+  Version: 4.3.0 - Build 10.18.14.4414
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  3DFX_texture_compression_FXT1
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16.000000)
+  GL_ARB_vertex_buffer_object
+  GL_EXT_multi_draw_arrays
+  ARB_occlusion_query
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  WGL_EXT_swap_control
+
+Loading compiled script base/ui/defaultProfiles.cs.
+Loading compiled script base/ui/customProfiles.cs.
+Loading compiled script base/ui/ConsoleDlg.gui.
+Loading compiled script base/ui/InspectDlg.gui.
+Loading compiled script base/ui/InspectAddFieldDlg.gui.
+Loading compiled script base/ui/LoadFileDlg.gui.
+Loading compiled script base/ui/SaveFileDlg.gui.
+Loading compiled script base/ui/MessageBoxOkDlg.gui.
+Loading compiled script base/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script base/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script base/ui/MessagePopupDlg.gui.
+Loading compiled script base/ui/HelpDlg.gui.
+Loading compiled script base/ui/RecordingsDlg.gui.
+Loading compiled script base/ui/NetGraphGui.gui.
+Loading compiled script base/client/metrics.cs.
+Loading compiled script base/ui/FrameOverlayGui.gui.
+Loading compiled script base/client/messageBox.cs.
+Loading compiled script base/client/screenshot.cs.
+Loading compiled script base/client/cursor.cs.
+Loading compiled script base/client/help.cs.
+Loading compiled script base/client/recordings.cs.
+
+OpenAL Driver Init:
+OpenAL
+   Vendor: Creative Labs Inc.
+   Version: OpenAL 1.0
+   Renderer: Software
+   Extensions: EAX 2.0, EAX 3.0, EAX Unified, and EAX-AC3
+
+Loading compiled script base/client/scripts/allClientScripts.cs.
+Loading compiled script base/client/ui/PlayGui.gui.
+Loading compiled script base/client/ui/newPlayerListGui.gui.
+Loading compiled script base/client/ui/trustInviteGui.gui.
+Loading compiled script base/client/ui/miniGameInviteGui.gui.
+Loading compiled script base/client/ui/JoinMiniGameGui.gui.
+Loading compiled script base/client/ui/CreateMiniGameGui.gui.
+Loading compiled script base/client/ui/mainMenuGui.gui.
+Loading compiled script base/client/ui/aboutDlg.gui.
+Loading compiled script base/client/ui/startMissionGui.gui.
+Loading compiled script base/client/ui/joinServerGui.gui.
+Loading compiled script base/client/ui/joinServerPassGui.gui.
+Loading compiled script base/client/ui/connectingGui.gui.
+Loading compiled script base/client/ui/loadingGui.gui.
+Loading compiled script base/client/ui/optionsDlg.gui.
+Loading compiled script base/client/ui/remapDlg.gui.
+Loading compiled script base/client/ui/manualJoin.gui.
+Loading compiled script base/client/ui/filtersGui.gui.
+Loading compiled script base/client/ui/changeMapGui.gui.
+Loading compiled script base/client/ui/noHudGui.gui.
+Loading compiled script base/client/ui/ServerConfigGui.gui.
+Executing base/client/scripts/default.bind.cs.
+Executing base/config/client/config.cs.
+Loading compiled script base/client/ui/adminGui.gui.
+Loading compiled script base/client/ui/addBanGui.gui.
+Loading compiled script base/client/ui/unBanGui.gui.
+Loading compiled script base/client/ui/brickManGui.gui.
+Loading compiled script base/client/ui/escapeMenu.gui.
+Loading compiled script base/client/ui/adminLoginGui.gui.
+Loading compiled script base/client/ui/printSelectorDlg.gui.
+Loading compiled script base/client/ui/brickSelectorDlg.gui.
+Loading compiled script base/client/ui/saveBricksGui.gui.
+Loading compiled script base/client/ui/loadBricksGui.gui.
+Loading compiled script base/client/ui/loadBricksColorGui.gui.
+Loading compiled script base/client/ui/saveBricksWarningGui.gui.
+Loading compiled script base/client/ui/AvatarGui.gui.
+Loading compiled script base/client/ui/autoUpdateGui.gui.
+Loading compiled script base/client/ui/newMessageHud.gui.
+Loading compiled script base/client/ui/newChatHud.gui.
+Loading compiled script base/client/ui/SelectNetworkGui.gui.
+Loading compiled script base/client/ui/ProgressGui.gui.
+Loading compiled script base/client/ui/fastLoadWarningGui.gui.
+Loading compiled script base/client/ui/defaultControlsGui.gui.
+Loading compiled script base/client/ui/savingGui.gui.
+Loading compiled script base/client/ui/wrenchDlg.gui.
+Loading compiled script base/client/ui/wrenchSoundDlg.gui.
+Loading compiled script base/client/ui/wrenchVehicleSpawnDlg.gui.
+Loading compiled script base/client/ui/keyGui.gui.
+Loading compiled script base/client/ui/regNameGui.gui.
+Loading compiled script base/client/ui/colorGui.gui.
+Loading compiled script base/client/ui/colorSetGui.gui.
+Loading compiled script base/client/ui/musicFilesGui.gui.
+Loading compiled script base/client/ui/AddOnsGui.gui.
+Loading compiled script base/client/ui/PortForwardInfoGui.gui.
+Loading compiled script base/client/ui/demoBrickLimitGui.gui.
+Loading compiled script base/client/scripts/clientAddOns.cs.
+Binding server port to default IP
+UDP initialized on port 0
+Engine initialized...
+   keyboard0 input device created.
+   mouse0 input device created.
+   keyboard0 input device created.
+   mouse0 input device created.
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 800x600x32 (w)...
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 1280x600x32 (w)...
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 1280x720x32 (w)...
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 800x600x32 (w)...
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 640x480x32 (w)...
+Destroying NET Server
+Exporting server prefs...
+Starting Single Player Server
+Binding server port to default IP
+UDP initialized on port 0
+Loading compiled script base/server/scripts/DamageTypes.cs.
+Loading compiled script base/server/scripts/allGameScripts.cs.
+... Shape with old version.
+Loading compiled script base/data/shapes/player/player.cs.
+Executing Add-Ons/ADD_ON_LIST.cs.
+Executing Add-Ons/Weapon_Sword.cs.
+Executing Add-Ons/Weapon_Spear.cs.
+Add-Ons/Weapon_Rocket Launcher.cs Line: 302 - Syntax error.
+>>> Advanced script error report.  Line 603.
+>>> Some error context, with ## on sides of error halt:
+//-------------------------------------------------------------------------
+
+datablock ##I##temData(rocketLauncherItem)
+{
+^category = "Weapon";  // Mission editor category
+>>> Error report complete.
+
+Executing Add-Ons/Weapon_Rocket Launcher.cs.
+Add-Ons/Weapon_Rocket Launcher.cs Line: 302 - Syntax error.
+>>> Advanced script error report.  Line 603.
+>>> Some error context, with ## on sides of error halt:
+//-------------------------------------------------------------------------
+
+datablock ##I##temData(rocketLauncherItem)
+{
+^category = "Weapon";  // Mission editor category
+>>> Error report complete.
+
+Executing Add-Ons/Weapon_Push Broom.cs.
+Executing Add-Ons/Weapon_Gun.cs.
+Executing Add-Ons/Weapon_Bow.cs.
+Executing Add-Ons/Vehicle_MagicCarpet.cs.
+Executing Add-Ons/Support_Jeep.cs.
+Executing Add-Ons/Vehicle_Jeep.cs.
+Executing Add-Ons/Vehicle_Horse.cs.
+Executing Add-Ons/Vehicle_FlyingWheeledJeep.cs.
+Executing Add-Ons/Vehicle_Ball.cs.
+Executing Add-Ons/Support_Jeep.cs.
+Executing Add-Ons/Player_Quake.cs.
+Executing Add-Ons/Player_NoJet.cs.
+Executing Add-Ons/Player_LeapJet.cs.
+Executing Add-Ons/Player_JumpJet.cs.
+Executing Add-Ons/Player_FuelJet.cs.
+Executing Add-Ons/Particle_Player.cs.
+Executing Add-Ons/Particle_FX Cans.cs.
+Executing Add-Ons/Particle_Basic.cs.
+Executing Add-Ons/Light_Basic.cs.
+Executing Add-Ons/Light_Animated.cs.
+Executing Add-Ons/Item_Skis.cs.
+Executing Add-Ons/Emote_Love.cs.
+Executing Add-Ons/Emote_Hate.cs.
+Executing Add-Ons/Emote_Confusion.cs.
+Executing Add-Ons/Emote_Alarm.cs.
+Executing Base/data/sound/music/musicList.cs.
+Loading compiled script base/server/scripts/prints.cs.
+*** LOADING MISSION: base/data/missions/bedroomDark.mis
+*** Stage 1 load
+Mission Name: Bedroom - Dark
+Mission SaveName: Bedroom
+Mission Description:
+   Name: Bedroom - Dark
+   Author: Eric Hartman
+*** Stage 2 load
+Executing base/data/missions/bedroomDark.mis.
+*** Mission loaded
+Connect request from: IPX:7359004D:696E57696474:104
+  lan name = Blockhead
+  net name = Badspot
+Connection established 4869
+AUTHCHECK: 4870 
+    LAN server, LAN client, loading
+CADD: 4870 local
+ +- bl_id = LAN
+ +- no auto admin
+*** Sending mission load to client: base/data/missions/bedroomDark.mis
+*** New Mission: base/data/missions/bedroomDark.mis
+*** Phase 1: Download Datablocks & Targets
+*** Phase 2: Download Ghost Objects
+Ghost Always objects received.
+Client Replication Startup has Happened!
+*** Phase 3: Mission Lighting
+Lighting mission....
+    = terrain lit in 0.359 seconds
+    = interior lit in 2.141 seconds
+ Scene lit in 3.016 seconds
+ Successfully saved mission lighting file: 'base/data/missions/bedroomDark_76a421e1.ml'
+Mission lighting done
+Executing base/config/client/Favorites.cs.
+*** Initial Control Object
+   keyboard0 input device created.
+   mouse0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 800x600x32 (w)...
+5 args
+ERROR: OpenGLDevice::setScreenMode() - depricated function!
+Setting screen mode to 640x480x32 (w)...
+ERROR: null chat
+Could not locate texture: base/data/missions/default.png
+Could not locate texture: base/data/missions/default.png
+keyboard0 input device unacquired.
+DirectInput deactivated.
+   keyboard0 input device created.
+   mouse0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+keyboard0 input device unacquired.
+DirectInput deactivated.
+   keyboard0 input device created.
+   mouse0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+keyboard0 input device unacquired.
+DirectInput deactivated.
+   keyboard0 input device created.
+   mouse0 input device created.
+Activating DirectInput...
+keyboard0 input device acquired.
+Exporting server prefs
+Exporting client prefs
+Exporting client config
+CDROP: 4870 IPX:7359004D:696E57696474:104
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
+keyboard0 input device unacquired.

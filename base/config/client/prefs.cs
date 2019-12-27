@@ -203,9 +203,21 @@ $pref::Video::fullScreen = "0";
 $pref::Video::monitorNum = 0;
 $pref::Video::only16 = "0";
 $pref::Video::preferOpenGL = "1";
+<<<<<<< Updated upstream
 $pref::Video::profiledRenderer = "Intel(R) HD Graphics 4400";
 $pref::Video::profiledVendor = "Intel";
 $pref::Video::resolution = "1280 600 32";
+=======
+<<<<<<< Updated upstream
+$pref::Video::profiledRenderer = "GeForce GTX 460/PCIe/SSE2";
+$pref::Video::profiledVendor = "NVIDIA Corporation";
+$pref::Video::resolution = "1024 768 32 60";
+=======
+$pref::Video::profiledRenderer = "Intel(R) HD Graphics 4400";
+$pref::Video::profiledVendor = "Intel";
+$pref::Video::resolution = "800 600 32";
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 $pref::Video::safeModeOn = "1";
 $pref::Video::screenShotFormat = "PNG";
 $pref::Video::useSmallPlantErrors = "0";

@@ -294,18 +294,17 @@ datablock ProjectileData(rocketLauncherProjectile)
 //////////
 // item //
 //////////
--
-//--------BETA-INFOMATION--------------------------------------------------
-//--Beta Rocket Launcher's model was a gun, accoroding to Rontondo's video
-//-------------------------------------------------------------------------
 
+//--------BETA-INFOMATION-------------------------------------------------
+//--Beta Rocket Launcher's model was a gun, accoroding to Rontondo's video
+//------------------------------------------------------------------------
 datablock ItemData(rocketLauncherItem)
 {
 	category = "Weapon";  // Mission editor category
 	className = "Weapon"; // For inventory system
 
 	 // Basic Item Properties
-	shapeFile = "./shapes/rocketLauncher.dts";
+	shapeFile = "./shapes/rocketLauncher.dts"; //change dts to a beta gun
 	rotate = false;
 	mass = 1;
 	density = 0.2;

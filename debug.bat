@@ -1,0 +1,1 @@
+start blockland.exe -dbgEnable

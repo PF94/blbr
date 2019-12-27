@@ -2,11 +2,13 @@
 // Torque Game Engine 
 // Copyright (C) GarageGames.com, Inc.
 //-----------------------------------------------------------------------------
+// Blockland Project Beta - Based on v1.02
+//-----------------------------------------------------------------------------
 
 $defaultGame = "Add-Ons";
 $displayHelp = false;
 
-$Version = "1.02";
+$Version = "Project Beta";
 
 //-----------------------------------------------------------------------------
 // Support functions used to manage the mod string

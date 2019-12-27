@@ -2,3 +2,6 @@
 console.log
 *.ml
 *.log
+base/config/server/prefs.cs
+base/config/client/prefs.cs
+base/config/client/config.cs

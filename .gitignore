@@ -1,3 +1,7 @@
 
 console.log
 *.ml
+# avoid leaking key
+key.dat
+# settings
+base/config/server/prefs.cs

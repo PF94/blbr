@@ -11,7 +11,7 @@ key.dat
 base/config/server/prefs.cs
 base/config/client/prefs.cs
 base/data/sound/music/musicList.cs
-base/config/server/prefs.cs
+base/config/client/config.cs
 
 # font cache
 *.gft

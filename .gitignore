@@ -5,4 +5,7 @@ console.log
 key.dat
 # settings
 base/config/server/prefs.cs
+# font cachess
 *.gft
+# blockland saves, we don't need them for now
+*.bls

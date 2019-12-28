@@ -315,7 +315,7 @@ datablock ItemData(rocketLauncherItem)
 	//gui stuff
 	uiName = "Rocket L.";
 	iconName = "./ItemIcons/rocketLauncher";
-	doColorShift = true;
+	doColorShift = false;
 	colorShiftColor = "0.100 0.500 0.250 1.000";
 
 	 // Dynamic properties defined by the scripts

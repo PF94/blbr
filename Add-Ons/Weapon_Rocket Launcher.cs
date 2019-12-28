@@ -329,7 +329,7 @@ datablock ItemData(rocketLauncherItem)
 datablock ShapeBaseImageData(rocketLauncherImage)
 {
    // Basic Item properties
-   shapeFile = "./shapes/rocketLauncher.dts";
+   shapeFile = "./shapes/pistol.dts";
    emap = true;
 
    // Specify mount point & offset for 3rd person, and eye offset

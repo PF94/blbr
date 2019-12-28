@@ -304,7 +304,7 @@ datablock ItemData(rocketLauncherItem)
 	className = "Weapon"; // For inventory system
 
 	 // Basic Item Properties
-	shapeFile = "./shapes/rocketLauncher.dts"; //change dts to a beta gun
+	shapeFile = "./shapes/pistol.dts";
 	rotate = false;
 	mass = 1;
 	density = 0.2;

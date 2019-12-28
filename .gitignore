@@ -1,7 +1,21 @@
-
+# console logs are pointless
 console.log
+
+# mission lighting?
 *.ml
+
 # avoid leaking key
 key.dat
+
 # settings
 base/config/server/prefs.cs
+base/config/client/prefs.cs
+base/data/sound/music/musicList.cs
+base/config/client/config.cs
+
+# font cache
+*.gft
+
+# blockland saves, we don't need them for now
+*.bls
+*.jpg

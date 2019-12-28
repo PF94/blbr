@@ -1,1 +1,1 @@
-gource --title "BLOCKLAND: PROJECT-BETA" --highlight-users --user-scale 1.5 -e 0.01
+gource --title "BLOCKLAND: PROJECT-BETA" --highlight-users --user-scale 1.5 -e 0.01 --font-file "Segoe UI"

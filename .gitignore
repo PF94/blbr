@@ -5,3 +5,4 @@ console.log
 key.dat
 # settings
 base/config/server/prefs.cs
+*.gft

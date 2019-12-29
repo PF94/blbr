@@ -8,7 +8,7 @@
 $defaultGame = "Add-Ons";
 $displayHelp = false;
 
-$Version = "Project Beta";
+$Version = "Project Beta: PF94 Edition";
 
 //-----------------------------------------------------------------------------
 // Support functions used to manage the mod string

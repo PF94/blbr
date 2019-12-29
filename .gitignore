@@ -16,6 +16,7 @@ base/config/client/config.cs
 # font cache
 *.gft
 
-# blockland saves, we don't need them for now
+# blockland saves/screenshots, we don't need them for now
 *.bls
 *.jpg
+*.png

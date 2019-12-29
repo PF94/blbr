@@ -6,10 +6,10 @@ package Editor {
 	{
 		Parent::onStart();
 		echo("\n--------- Initializing MOD: Editor ---------");
-		exec("./editor.cs"); //works, but pointless.
-		exec("./particleEditor.cs"); //broken, but pointless
-		exec("./GuiEditorGui.gui"); //broken, IMPORTANT TO FIX THIS
-		exec("./ParticleEditor.gui"); //broken, but pointless
+		exec("./editor.cs");
+		exec("./particleEditor.cs");
+		exec("./GuiEditorGui.gui");
+		exec("./ParticleEditor.gui");
 	}
 
 	function initClient()
@@ -18,3 +18,10 @@ package Editor {
 	}
 }; // Editor package
 activatePackage(Editor);
+
+
+///COMPATIBILTY
+///		editor.cs: //works, but pointless.
+///		particleEditor.cs: //broken, but pointless
+///		GuiEditorGui.gui: //broken, IMPORTANT TO FIX THIS
+///		ParticleEditor.gui: //broken, but pointless

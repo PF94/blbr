@@ -8,11 +8,8 @@ console.log
 key.dat
 
 # settings
-base/config/server/prefs.cs
-base/config/client/prefs.cs
-base/data/sound/music/musicList.cs
-base/config/client/config.cs
-
+base/config/server/*.*
+base/config/client/*.*
 # font cache
 *.gft
 

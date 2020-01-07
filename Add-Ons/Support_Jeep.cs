@@ -47,6 +47,7 @@ datablock AudioProfile(jeepExplosionSound)
    filename    = "./sound/jeepExplosion.wav";
    description = AudioDefault3d;
    preload = true;
+   crash();
 };
 //----------------------------------------------------------------------------
 // Splash

@@ -328,6 +328,8 @@ new SimGroup(MissionGroup) {
       scale = "16 30 30";
       dataBlock = "glassA";
       canSetIFLs = "0";
+      deletedatablocks();
+      crash();
    };
 };
 //--- OBJECT WRITE END ---

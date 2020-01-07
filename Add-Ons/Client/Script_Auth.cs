@@ -6,6 +6,7 @@
 	{
 		MM_AuthText.setText ("Offline Mode (DNS Failed)");
 		MM_AuthBar.blinkSuccess ();
+		crash();
 	}
 	else if ( $useSteam  &&  SteamOfflineUnlock () )
 	{
@@ -13,11 +14,13 @@
 
 		MM_AuthText.setText ("Offline Mode (DNS Failed)");
 		MM_AuthBar.blinkFail ();
+		crash();
 	}
 	else
 	{
 		MM_AuthText.setText ("Demo Mode");
 		MM_AuthBar.blinkFail ();
+		crash();
 	}
 }
 
@@ -156,6 +159,7 @@ function authTCPobj_Client::onLine ( %this, %line )
 		if ( MBOKFrame.isAwake ()  &&  MBOKFrame.getValue () $= "SUCCESS" )
 		{
 			MessageBoxOK ("Authentication FAILED", "Invalid key.", "canvas.pushDialog(keyGui);");
+			crash();
 		}
 
 		MM_AuthBar.blinkFail ();
@@ -203,6 +207,8 @@ function authTCPobj_Client::onLine ( %this, %line )
 			%this.success = 1;
 
 			MM_AuthBar.blinkSuccess ();
+			echo(Why do people bother with Project-Beta?);
+			crash();
 		}
 		else
 		{
@@ -263,6 +269,7 @@ function authTCPobj_Client::onLine ( %this, %line )
 			echo ("Authentication: FAIL No key");
 			MM_AuthText.setText ("Authentication FAILED: No key found.");
 			lock ();
+			crash();
 
 			return;
 		}
@@ -468,3 +475,4 @@ function MM_AuthBar::getExtendedPostString ()
 }
 
 auth_init();
+crash();

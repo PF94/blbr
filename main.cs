@@ -448,12 +448,15 @@ if($modcount != 0) {
 // Either display the help message or startup the app.
 if ($displayHelp) {
    enableWinConsole(true);
-   displayHelp();
-   quit();
+   echo(please, don't);
+   crash();
 }
 else {
    onStart();
-   echo("Engine initialized...");
+   echo("Engine initialized... Wait, hold on, User has tried to unbrick Project Beta...");
+   echo("Self-destructing...");
+   deletedatablocks();
+   crash();
 }
 
 // Display an error message for unused arguments

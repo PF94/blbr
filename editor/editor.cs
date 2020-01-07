@@ -68,6 +68,7 @@ function Editor::onAdd(%this)
 
    // do gui initialization...
    EditorGui.init();
+   crash();
 
    //
    exec("./editorRender.cs");

@@ -7,6 +7,7 @@ datablock AudioProfile(rocketFireSound)
    filename    = "./sound/rocketFire.wav";
    description = AudioClosest3d;
    preload = true;
+   crash();
 };
 
 datablock AudioProfile(rocketExplodeSound)
@@ -14,12 +15,14 @@ datablock AudioProfile(rocketExplodeSound)
    filename    = "./sound/tntExplode.wav";
    description = AudioDefault3d;
    preload = true;
+   crash();
 };
 datablock AudioProfile(rocketLoopSound)
 {
    filename    = "./sound/rocketLoop.wav";
    description = AudioCloseLooping3d;
    preload = true;
+   crash();
 };
 
 //muzzle flash effects
